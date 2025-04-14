@@ -1,0 +1,28 @@
+/* src/pages/AddBook.css */
+.add-book-form-container {
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .add-book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .add-book-form input,
+  .add-book-form textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .add-book-form button {
+    padding: 0.75rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
